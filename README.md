@@ -149,10 +149,13 @@ Validación de datos completos para la colección Users:
 1. Visualización de la validación de la consulta sin el Header:
 ![](./assets/img/get_sin_header.png)
 
-### Consulta de los registros Post con el token del usuario 5,  
+### Consulta de los registros Post con el token del usuario 5  
 1. Visualización de los registros almacenados en la colección Post, filtrados para el Pepita Perez 5 con la línea:
 ```
 await Post.find({ userId: req.user._id });
 ```
-:
-![](./assets/img/get_con_header.png.png)
+![](./assets/img/get_con_header.png)
+
+### Visualización base de datos con la totalidad de registros insertados
+![](./assets/img/socialNetworkDB.png)
+
